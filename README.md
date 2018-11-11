@@ -1,9 +1,22 @@
 # Overview
- EOS EBT allows an administrator to verify food stamp recipients and distribute tokens that online merchants can accept as payment for food. This guide uses scripts, containing relevant commands, which will show you how to install, build and run Eos EBT and by doing so will demonstrate:
+ EOS EBT allows an administrator to verify food stamp recipients and distribute tokens that online merchants can accept as payment for food.
 
-- Downloading and running eosio in docker;
+**To start for the first time or reset blockchain data**
+```sh
+./quick_start.sh
+
+
+```
+
+
+
+
+------------------------------------------------------------------------
+ This guide uses scripts, containing relevant commands, which will show you how to install, build and run Eos EBT.
+
+- Runs eosio in docker;
 - Managing your docker container;
-- Setting up and running a local single node testnet;
+- Runs a local single node testnet;
 - Setting up wallets, keys, and accounts;
 - Writing and deploying a smart contract;
 - Implementing a web based UI using React;

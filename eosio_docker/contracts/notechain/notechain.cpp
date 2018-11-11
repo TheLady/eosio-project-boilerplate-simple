@@ -2,17 +2,18 @@
 
 using namespace eosio;
 
-// Smart Contract Name: notechain
+// Smart Contract Name: eos-ebt
 // Table struct:
-//   notestruct: multi index table to store the notes
+//   userstruct: multi index table to store the basic user data
 //     prim_key(uint64): primary key
 //     user(name): account name for the user
-//     note(string): the note message
+//     account_number(string): the note message
+//     account_balance(int):
 //     timestamp(uint64): the store the last update block time
 // Public method:
-//   isnewuser => to check if the given account name has note in table or not
+//   isnewuser => to check if the given account name has ID in table or not
 // Public actions:
-//   update => put the note into the multi-index table and sign by the given account
+//   update => put new account balance into the multi-index table and sign by the given account
 
 // Replace the contract class name when you start your own project
 CONTRACT notechain : public eosio::contract {
