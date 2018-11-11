@@ -22,12 +22,13 @@
 - Implementing a web based UI using React;
 - Connecting the UI to the blockchain using eosjs;
 - Styling the UI using Material-UI.
+- (To Do)Making public key identifier on ledger while private key authorizes administrator changes to blockchain"
 
 Github eosio-project-boilerplate-simple (https://github.com/EOSIO/eosio-project-boilerplate-simple) contains the UI and Smart Contract code, as well as setup scripts which will initialise and start all the necessary components.
 
 The sample DApp demonstrates storing data in multi index table and retrieving this data into the web based UI. NoteChain is a simple note taking application, where notes are tied to user accounts. For this example, all accounts are pre-created by scripts and the account details are displayed at the bottom of the NoteChain UI.
 
-Each account can then be used to add a note to the blockchain. The individual notes are saved in a multi-index table and for simplicity are of fixed width. Each account may have one note attached to it, adding a note to an account with an existing note will replace the existing note with a new note.
+Each account can then be used to add a note to the blockchain. For Eos EBT, the The individual notes are saved in a multi-index table and for simplicity are of fixed width. Each account may have one note attached to it, adding a note to an account with an existing note will replace the existing note with a new note.
 
 **Any private keys you see in this repository are for demo purposes only. For a real DApp NEVER expose the private keys.**
 
