@@ -29,14 +29,8 @@ docker stop eosio_notechain_container
  This guide uses scripts, containing relevant commands, which will show you how to install, build and run Eos EBT.
 
 - Runs eosio in docker;
-- Managing your docker container;
-- Runs a local single node testnet;
-- Setting up wallets, keys, and accounts;
-- Writing and deploying a smart contract;
-- Implementing a web based UI using React;
-- Connecting the UI to the blockchain using eosjs;
-- Styling the UI using Material-UI.
-- (To Do)Making public key identifier on ledger while private key authorizes administrator changes to blockchain"
+
+- To Do -Make public key identifier on ledger while private key authorizes administrator changes to blockchain"
 
 Github eosio-project-boilerplate-simple (https://github.com/EOSIO/eosio-project-boilerplate-simple) contains the UI and Smart Contract code, as well as setup scripts which will initialise and start all the necessary components.
 
