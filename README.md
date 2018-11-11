@@ -8,6 +8,20 @@
 
 ```
 
+**To stop**, press `ctrl+c` on your keyboard, and execute:
+```sh
+docker stop eosio_notechain_container
+```
+
+**To reset blockchain data**
+1. `./sh docker stop eosio_notechain_container
+2. `first_time_setup.sh`
+3. `start_eosio_docker.sh`
+4. `start_frontend.sh`
+5. `ctrl+c` on your keyboard, and execute:
+
+
+
 
 
 
